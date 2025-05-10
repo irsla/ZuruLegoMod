@@ -1,7 +1,7 @@
 # ZuruLegoMod
 Hardware Mod for the Zuru Max Retro Computer Lego
 
-This project was created for a friend, it hasn't been curated and will most certainly not get any update.
+This project was created for a friend (@CabriDIY) , it hasn't been curated and will most certainly not get any update.
 
 ![image](https://github.com/user-attachments/assets/9784b16d-be13-455c-8a1e-974622e521ba)
 
@@ -32,7 +32,7 @@ arm-none-eabi-objcopy -O binary -S build/firmware_LegoZuru.elf build/firmware_Le
 
 ## Hardware
 
-The hardware was generated on KiCad, files provided here are
+**The hardware was generated on KiCad**
   - schematics (pdf)
   - gerbers
   - BOMs
@@ -42,4 +42,28 @@ The hardware was generated on KiCad, files provided here are
 
 Project was manufactured and assembled by JLCPCB
  
-Not Included in the documentation is the OLED Display used for this project: NHD-1.8-160128B, datasheet in folder Hardware
+**Not Included in the documentation:**
+ - OLED Display: NHD-1.8-160128B, datasheet in folder Hardware
+ - FPV ribbon: 10pin 0.5mm pitch type A (careful **not** to use a type B)
+ - Power: any 5V, we used a 5V only usb cable
+
+## Some photos
+
+### 211 lego pieces:
+
+![20250312_195518](https://github.com/user-attachments/assets/14f7dc8d-69ce-4656-a960-9de76e76a244)
+
+### very first try of a GIF (I think the color was not correctly parsed)
+
+![20250409_224945](https://github.com/user-attachments/assets/2acd9c76-202a-4ced-beb1-8f93f648540d)
+
+### Oh No I have a dead pixel
+
+![20250323_222348](https://github.com/user-attachments/assets/80375a22-b16c-4055-8a00-666ea80504af)
+
+### first main board was incorrect (I had to bodge)
+
+![signal-2025-04-14-19-46-56-328](https://github.com/user-attachments/assets/6500ea8a-21be-4862-96d1-45752aac67be)
+
+
+
